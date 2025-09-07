@@ -39,7 +39,7 @@ todo: particles, dash, tall grass destruction, tall grass rotation, texture atla
 
 
 ---
-### UPDATE 22/8/2025 V5
+### UPDATE 22/8/2025 V4
 
 #### Date: 20/8/2025
 - made particles work, added precise bool to attack types, 
@@ -74,6 +74,9 @@ todo: particles, dash, tall grass destruction, tall grass rotation, texture atla
 - Added knockback to slimes on hit  
 - ! Another failed dash attack attempt (scrapped)  
 
+---
+### UPDATE 22/8/2025 V3
+
 #### Date: 15/8/2025  
 - **Removed edges entirely** — wasn’t worth fixing the neighbor bug  
 - Improved grass tile sprites + added 3 variations  
@@ -85,10 +88,16 @@ todo: particles, dash, tall grass destruction, tall grass rotation, texture atla
   - Player sword attacks: poke, slash, uppercut, heavy slash  
   - ! Tried dash attack → removed (not like i wanted)  
 
+---
+### UPDATE 22/8/2025 V2
+
 #### Date: 11/8/2025  
 - Improved player sprite  
 - Added dynamic chunk loading  
 - Added block edges (rendered even with neighbors — buggy)  
+
+---
+### UPDATE 22/8/2025 V1
 
 #### Date: 4/8/2025  
 - Added isometric renderer + view  
