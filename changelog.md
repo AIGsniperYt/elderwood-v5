@@ -39,7 +39,7 @@ todo: particles, dash, tall grass destruction, tall grass rotation, texture atla
 
 
 ---
-### PREVIOUS UPDATE
+### UPDATE 22/8/2025 V5
 
 #### Date: 20/8/2025
 - made particles work, added precise bool to attack types, 
