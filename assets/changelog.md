@@ -2,6 +2,15 @@
 
 todo: particles, dash, tall grass destruction, tall grass rotation, texture atlas everything
  make slimes drop items, make arrows finite, flash step, animate slimes, daynight cycle
+
+#### Date: 17/9/2025
+- **fixed memory leaks - fps restored to normal**, learnt how to use devtools memory usage
+  - turns out it was chunk containers not being cleaned up, not enemies as i suspected
+  - i thought it was enemies because i have to run and spawn them in, kill them before going to spawn more, turns out while i was running chunk containers not cleaned up properly accumulated, and i thought slimes accumulated after i killed them
+  - added "t" for stress testing, press to spawn 50 slimes
+  - bow temporarily buffed to one shot slimes
+  - t doesnt work, made it work, made event listener global
+
 #### Date: 12/9/2025
 - made and added kunai-ui.png
 - made and added kunai.png
@@ -30,7 +39,7 @@ todo: particles, dash, tall grass destruction, tall grass rotation, texture atla
 - ! flash white not working - 2fix: nade it work by removing settimout dependency
 - ! arrows dont make piercing type particles - fix: passed shoot attacktype to takedamage()
 - made slimes face player during movement using same sprite
-- ! **fps so slow**:
+- ! **fps so slow (memory leaks <- didnt know this yet)**:
   - fix 1: update enemies if theyre close enough to the player
     - crude but will replace with line of sight checks later
     - fixes all enemies being updated every frame from literally across the existing world
