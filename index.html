@@ -20,7 +20,7 @@
             }
             window.addEventListener("keydown", (e) => {
   if (e.key.toLowerCase() === "t") {
-    g.world.stressSpawn(50); // spawn 50 slimes per press
+    window.game.world.stressSpawn(50); // spawn 50 slimes per press
     console.log("[StressTest] Spawned 50 slimes");
   }
 });
